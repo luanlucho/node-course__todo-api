@@ -4,7 +4,7 @@ let User = mongoose.model('User', {
     email: {
         type: String,
         trim: true,
-        require: true,
+        required: true,
         minlength: 1
     }
 });
