@@ -17,6 +17,10 @@
   },
   "scripts": {
     "test": "mocha server/**/*.test.js",
-    "test-watch": "nodemon --exec 'yarn test'"
+    "test-watch": "nodemon --exec 'yarn test'",
+    "start": "node server/server.js"
+  }, 
+  "engines": {
+    "node": "9.5.0"
   }
 }
